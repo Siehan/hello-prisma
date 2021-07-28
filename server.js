@@ -10,7 +10,7 @@ const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
 
 const IP_LOOPBACK = "localhost";
-const IP_LOCAL = "192.168.1.10"; // my local ip on my network
+const IP_LOCAL = "192.168.0.22"; // my local ip on my network
 const PORT = 3333; //3000 le port d'écoute de notre serveur
 
 app.use(express.json());
